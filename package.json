@@ -1,0 +1,23 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": ["> 0.25%, not dead"],
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinbourgeois/challenge_final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinbourgeois/challenge_final/issues"
+  },
+  "homepage": "https://github.com/kevinbourgeois/challenge_final#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
