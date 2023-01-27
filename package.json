@@ -1,8 +1,11 @@
 {
   "name": "starter",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
-  "browserslist": ["> 0.25%, not dead"],
+  "browserslist": [
+    "> 0.25%, not dead"
+  ],
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html"
@@ -19,5 +22,8 @@
   "homepage": "https://github.com/kevinbourgeois/challenge_final#readme",
   "devDependencies": {
     "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "color-convert": "^2.0.1"
   }
 }
